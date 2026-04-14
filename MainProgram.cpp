@@ -39,7 +39,7 @@ public:
     // TODO 1a: Default constructor
     // Set name to "Unknown", id to 0, gpa to 0.0
     Student() {
-        name = "Unkown";
+        name = "Unknown";
         id=0;
         gpa=0.0;
     }
@@ -66,7 +66,7 @@ public:
     // Print: "Student [name] destroyed"
     ~Student() {
         // YOUR CODE HERE
-        cout << "Student"<< name << "destroyed" << endl;
+        cout << "Student " << name << " destroyed" << endl;
     }
 
     // ----- Task 2: Getters (Encapsulation) -----
